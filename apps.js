@@ -211,9 +211,9 @@ let inventorNamedAda = {};
 
 // Complete the exercise in the space below:
 
-// const namedAda = inventorNamedAda.find((first) => {
-//     return inventorNames === 'Ada'
-// });
+const namedAda = inventorNames.find((first) => {
+    return inventorNamedAda === 'Ada';
+}); 
 
 // Check your work:
 console.log('Exercise 4 my result: ', inventorNamedAda);
